@@ -41,7 +41,7 @@ a {
   transition: all 0.3s;
 }
 .navi ul li a:hover {
-  background-color: rgb(146, 166, 192);
+  background-color: steelblue;
   color: #fff;
   border-radius: 35px;
 }

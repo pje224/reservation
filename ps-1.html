@@ -12,13 +12,44 @@
       <!-- 메뉴 -->
       <nav class="navi">
         <ul>
-          <li><a href="index.html#intro">이용 안내</a></li>
-          <li><a href="index.html#room">객실 소개</a></li>
-          <li><a href="index.html#reservation">예약 방법 및 요금</a></li>
+          <li><a href="index.html#intro">이용안내</a></li>
+          <li><a href="index.html#room">객실소개</a></li>
+          <li><a href="index.html#reservation">예약방법 및 요금</a></li>
           <li><a href="ps-1.html">예약하기</a></li>
         </ul>
       </nav>
-      <div class="contatiner"></div>
+      <div class="contatiner">
+        <!-- 개인정보 -->
+        <form id="signUp">
+          <fieldset>
+            <legend>개인 정보</legend>
+            <ul>
+              <li>
+                <label for="fullName">이름</label
+                ><input type="text" id="fullName" />
+              </li>
+              <li>
+                <label for="tel">연락처</label><input type="tel" id="tel" />
+              </li>
+            </ul>
+          </fieldset>
+          <!-- 객실 형태 -->
+          <fieldset>
+            <legend>객실 형태</legend>
+            <ul>
+              <li>
+                <input type="radio" name="roomSelect" id="room" />
+                <label for="room">기본형(최대 2인)</label>
+              </li>
+              <li>
+                <input type="radio" name="roomSelect" id="family" />
+                <label for="family">가족형(최대 5인)</label>
+              </li>
+              <!-- radio를 하나만 체크될 수 있게 하려면 같은 name을 부여해야됨 -->
+            </ul>
+          </fieldset>
+        </form>
+      </div>
     </div>
   </body>
 </html>
