@@ -18,14 +18,15 @@ a {
 }
 .navi {
   border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 .navi ul {
   width: 600px;
   display: flex;
+  gap: 10px;
   margin: auto;
   text-align: center;
-  background-color: lightsteelblue;
+  /* background-color: lightsteelblue; */
 }
 .navi ul li {
   width: calc(100% / 4);
@@ -33,11 +34,14 @@ a {
 }
 .navi ul li a {
   display: block;
-  padding: 20px 0;
+  padding: 15px 0;
+  /* border-radius: 35px; */
+  transition: all 0.3s;
 }
 .navi ul li a:hover {
   background-color: rgb(146, 166, 192);
   color: #fff;
+  border-radius: 35px;
 }
 .container {
   display: flex;
@@ -50,4 +54,22 @@ a {
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 15px;
+}
+#intro:target {
+  background-color: whitesmoke;
+}
+#intro:target h2 {
+  color: crimson;
+}
+#room:target {
+  background-color: whitesmoke;
+}
+#room:target h2 {
+  color: crimson;
+}
+#reservation:target {
+  background-color: whitesmoke;
+}
+#reservation:target h2 {
+  color: crimson;
 }
