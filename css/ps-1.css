@@ -45,34 +45,3 @@ a {
   color: #fff;
   border-radius: 35px;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding: 20px 0;
-}
-.contents {
-  width: 400px;
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-}
-#intro:target {
-  background-color: whitesmoke;
-}
-#intro:target h2 {
-  color: crimson;
-}
-#room:target {
-  background-color: whitesmoke;
-}
-#room:target h2 {
-  color: crimson;
-}
-#reservation:target {
-  background-color: whitesmoke;
-}
-#reservation:target h2 {
-  color: crimson;
-}
